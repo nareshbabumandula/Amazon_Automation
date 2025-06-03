@@ -10,7 +10,8 @@ public class BrowserTest {
 		driver = new ChromeDriver();
 		driver.get("https://www.amazon.in");
 		driver.manage().window().maximize();
-		Thread.sleep(3000);
+		System.out.println(driver.getTitle());
+		Thread.sleep(4000);
 		driver.quit();
 	}
 
