@@ -11,7 +11,6 @@ public class BrowserTest {
 		driver.get("https://www.amazon.in");
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
-		System.out.println(driver.getCurrentUrl());
 		Thread.sleep(4000);
 		driver.quit();
 	}
